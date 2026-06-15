@@ -1,0 +1,48 @@
+--- Predictive Modeling Application ---
+
+Loading dataset...
+Dataset loaded: 569 samples, 30 features.
+
+Training and Evaluating Models...
+
+--- Logistic Regression ---
+Accuracy: 97.37%
+Classification Report:
+              precision    recall  f1-score   support
+
+   malignant       0.98      0.95      0.96        43
+      benign       0.97      0.99      0.98        71
+
+    accuracy                           0.97       114
+   macro avg       0.97      0.97      0.97       114
+weighted avg       0.97      0.97      0.97       114
+
+
+--- Decision Tree ---
+Accuracy: 94.74%
+Classification Report:
+              precision    recall  f1-score   support
+
+   malignant       0.93      0.93      0.93        43
+      benign       0.96      0.96      0.96        71
+
+    accuracy                           0.95       114
+   macro avg       0.94      0.94      0.94       114
+weighted avg       0.95      0.95      0.95       114
+
+
+--- Random Forest ---
+Accuracy: 96.49%
+Classification Report:
+              precision    recall  f1-score   support
+
+   malignant       0.98      0.93      0.95        43
+      benign       0.96      0.99      0.97        71
+
+    accuracy                           0.96       114
+   macro avg       0.97      0.96      0.96       114
+weighted avg       0.97      0.96      0.96       114
+
+
+Generating visualizations...
+Visualizations ready! Displaying windows... (Close the windows to exit the script)
